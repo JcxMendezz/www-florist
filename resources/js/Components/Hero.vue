@@ -24,10 +24,11 @@
                             >.00</span
                         >
                     </div>
-                    <Button
-                        label="Shop now"
-                        class="border-none bg-amber-400 px-8 py-3 font-semibold text-gray-900 hover:bg-amber-500"
-                    />
+                    <button
+                        class="rounded-md bg-amber-400 px-8 py-3 font-medium text-gray-900 transition-colors hover:bg-amber-500"
+                    >
+                        Shop now
+                    </button>
                 </div>
 
                 <!-- Imagen y Slider -->
@@ -88,7 +89,7 @@
 
 <script setup>
 import { ref } from 'vue';
-import Button from 'primevue/button';
+//import Button from 'primevue/button';
 import Carousel from 'primevue/carousel';
 
 const products = ref([
