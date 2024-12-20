@@ -5,6 +5,7 @@
             <Banner />
             <ProductCard />
             <Images />
+            <Stats />
         </div>
     </MainLayout>
 </template>
@@ -15,6 +16,7 @@ import Hero from '../Components/Hero.vue';
 import Banner from '../Components/Banner.vue';
 import ProductCard from '../Components/ProductCard.vue';
 import Images from '@/Components/Images.vue';
+import Stats from '@/Components/Stats.vue';
 
 export default {
     components: {
@@ -23,6 +25,7 @@ export default {
         Banner,
         ProductCard,
         Images,
+        Stats,
     },
 };
 </script>

@@ -2,7 +2,9 @@
     <section class="container mx-auto px-4 py-8">
         <div class="grid grid-cols-1 justify-items-center gap-6 md:grid-cols-2">
             <!-- Banner de Descuento -->
-            <div class="w-full overflow-hidden rounded-2xl hover:shadow-lg md:w-4/5">
+            <div
+                class="w-full overflow-hidden rounded-2xl hover:shadow-lg md:w-4/5"
+            >
                 <img
                     src="/images/Grupo -8.png"
                     alt="Sales promotion banner"
@@ -11,7 +13,9 @@
             </div>
 
             <!-- Banner de Thanksgiving -->
-            <div class="w-full overflow-hidden rounded-2xl hover:shadow-lg md:w-4/5">
+            <div
+                class="w-full overflow-hidden rounded-2xl hover:shadow-lg md:w-4/5"
+            >
                 <img
                     src="/images/Grupo -9.png"
                     alt="Thanksgiving banner"
