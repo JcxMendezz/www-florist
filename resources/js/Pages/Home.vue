@@ -1,9 +1,6 @@
 <template>
     <MainLayout>
-        <div
-            class="container mx-auto px-4"
-            style="width: 1366px; height: 5401px"
-        >
+        <div class="container mx-auto px-4">
             <Hero />
             <Banner />
             <ProductCard />

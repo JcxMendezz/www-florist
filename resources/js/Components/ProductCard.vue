@@ -22,10 +22,7 @@
                             class="relative rounded-lg bg-white shadow-md transition duration-300 hover:shadow-lg"
                         >
                             <!-- Badge -->
-                            <div
-                                v-if="product.badge"
-                                class="absolute left-3 top-3"
-                            >
+                            <div v-if="product.badge" class="absolute left-3 top-3">
                                 <span
                                     :class="[
                                         'rounded-full px-3 py-1 text-xs font-bold uppercase',
@@ -49,16 +46,12 @@
 
                             <!-- Detalles del Producto -->
                             <div class="p-4">
-                                <h3
-                                    class="mb-2 text-lg font-semibold text-gray-800"
-                                >
+                                <h3 class="mb-2 text-lg font-semibold text-gray-800">
                                     {{ product.title }}
                                 </h3>
 
                                 <div class="flex items-center justify-between">
-                                    <span
-                                        class="text-xl font-bold text-pink-500"
-                                    >
+                                    <span class="text-xl font-bold text-pink-500">
                                         {{ product.price }}
                                     </span>
                                     <span
@@ -139,13 +132,6 @@ export default {
                     originalPrice: null,
                     badge: null,
                     image: '/Images/Grupo 9124.png',
-                },
-                {
-                    title: 'Floral arrangement of Roses of the Day in a Golden',
-                    price: '$99,00',
-                    originalPrice: null,
-                    badge: null,
-                    image: 'https://via.placeholder.com/200x200?text=Roses+Golden',
                 },
             ],
             currentPage: 0,
