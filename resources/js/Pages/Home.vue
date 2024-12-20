@@ -1,0 +1,28 @@
+<template>
+    <MainLayout>
+        <div
+            class="container mx-auto px-4"
+            style="width: 1366px; height: 5401px"
+        >
+            <Hero />
+            <Banner />
+            <ProductCard />
+        </div>
+    </MainLayout>
+</template>
+
+<script>
+import MainLayout from '../Layouts/MainLayout.vue';
+import Hero from '../Components/Hero.vue';
+import Banner from '../Components/Banner.vue';
+import ProductCard from '../Components/ProductCard.vue';
+
+export default {
+    components: {
+        MainLayout,
+        Hero,
+        Banner,
+        ProductCard,
+    },
+};
+</script>
