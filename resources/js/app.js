@@ -5,7 +5,7 @@ import { createInertiaApp } from '@inertiajs/vue3';
 import { resolvePageComponent } from 'laravel-vite-plugin/inertia-helpers';
 import PrimeVue from 'primevue/config';
 import { createApp, h } from 'vue';
-import { ZiggyVue } from '../../vendor/tightenco/ziggy';
+import { route, ZiggyVue } from 'ziggy-js'; // ZiggyVue como named export
 
 // Iconos de PrimeVue
 import 'primeicons/primeicons.css';
@@ -23,7 +23,11 @@ createInertiaApp({
         return createApp({ render: () => h(App, props) })
             .use(plugin)
             .use(PrimeVue) // Configuración del plugin PrimeVue
-            .use(ZiggyVue) // Configuración del plugin Ziggy
+            .use(ZiggyVue, {
+                // Configuración del plugin Ziggy
+                ...props.ziggy,
+                route,
+            })
             .mount(el);
     },
     progress: {

@@ -29,6 +29,7 @@
     "dependencies": {
         "@primevue/themes": "^4.2.5",
         "primeicons": "^7.0.0",
-        "primevue": "^4.2.5"
+        "primevue": "^4.2.5",
+        "ziggy-js": "^2.4.1"
     }
 }
